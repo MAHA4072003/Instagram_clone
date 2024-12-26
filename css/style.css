@@ -1,0 +1,140 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background-color: black;
+    height: 580px;
+    width:270px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.mobile{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.center{
+    background-color: black;
+    height: 580px;
+    width: 270px;
+    border-radius: 20px;
+    position: absolute;
+    left: 390px;
+    top: 50px;
+}
+.right{
+    margin-left: 125px;
+    margin-top: 37px;
+}
+.login{
+    background-color: white;
+    height: 420px;
+    width: 345px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.login img{
+    width:200px;
+    height: 65px;
+    margin-left: 67px;
+    margin-top: 45px;
+}
+.buttom{
+    margin-top: 10px;
+    background-color: white;
+    height: 40px;
+    width: 307px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.bottom a{
+    color: rgb(11, 170, 238);
+    text-decoration: none;
+}
+input{
+    height: 28px;
+    width: 270px; 
+    margin-left: 33px;
+    padding-left: 5px;
+}
+#username{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.btn{
+    height: 28px;
+    background-color: rgb(11, 170, 238);
+    text-align: center;
+    width: 270px;
+    border-radius: 8px;
+    margin-left: 35px;
+}
+.btn p{
+    padding-top: 3px;
+    color: white;
+}
+.or{
+    margin-left: 65px;
+    margin-top: 5px;
+}
+hr{
+    width: 70px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+.facebook{
+    margin-top: 8px;
+    color: rgb(6, 47, 136);
+    margin-left: 80px;
+}
+.facebook a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgb(6, 47, 136);
+}
+.facebookicon{
+    font-size: 20px;
+}
+.forgot{
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.forgot a{
+    text-decoration: none;
+    color:rgb(5, 34, 99);
+    font-size: 15px;
+}
+.getapp{
+    text-align: center;
+}
+.getapp img{
+    height: 40px;
+    width: 130px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-right: 230px;
+    flex-wrap: wrap;
+
+}
+.footer a{
+    margin-left: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    color: grey;
+    
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.translate{
+    margin-top: 10px;
+    margin-right: 75px;
+}
